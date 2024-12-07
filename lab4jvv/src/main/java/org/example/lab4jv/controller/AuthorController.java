@@ -31,7 +31,7 @@ public class AuthorController {
         return "author";
     }
 
-    @PostMapping("/addAuthor")
+    @PostMapping("/addauthor")
     public String addAuthor(@RequestParam String author, @RequestParam String nameb, @RequestParam int year){
         Author authors = new Author();
         authors.setAuthor(author);
